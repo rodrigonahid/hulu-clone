@@ -11,8 +11,11 @@ First, set the global variables:
 3. You can get your free API Key at themoviedb.org, just need to create an account.
 
 Then, run the development server:
-`
-npm run dev
-# or
-yarn dev
-`
+
+<dl>
+  <dt>npm run dev</dt>
+  <dt>Or</dt>
+  <dd>yarn dev</dd>
+</dl>
+
+Done!
