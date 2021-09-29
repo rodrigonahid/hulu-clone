@@ -13,9 +13,9 @@ First, set the global variables:
 Then, run the development server:
 
 <dl>
-  <dd>npm run dev</dd>
-  <dt>Or</dt>
-  <dd>yarn dev</dd>
+  <dt>npm run dev</dt>
+  <dd>Or</dd>
+  <dt>yarn dev</dt>
 </dl>
 
 Done!
