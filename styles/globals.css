@@ -1,6 +1,13 @@
 @tailwind base;
 @tailwind components;
-@tailwind utilities;/* ./styles/globals.css */
-@tailwind base;
-@tailwind components;
 @tailwind utilities;
+
+@layer base{
+  body{
+    @apply bg-[#06202A] text-gray-300;
+  }
+}
+
+nav::-webkit-scrollbar{
+  display: none;
+}
