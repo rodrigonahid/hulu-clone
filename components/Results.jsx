@@ -2,7 +2,6 @@ import Image from "next/image";
 import { ThumbUpIcon } from "@heroicons/react/solid";
 
 export function Results({ requests }){
-  console.log(requests)
   return(
     <div className="px-5 my-10 sm:grid md:grid-cols-2 xl:grid-cols-3 3xl:flex 3xl:flex-wrap">
       {requests.map( result => {
@@ -13,8 +12,8 @@ export function Results({ requests }){
 }
 
 function Thumbnail({ result }){
-  const BASE_URL = 'https://image.tmdb.org/t/p/w500/'
-  console.log(result)
+  const BASE_URL = 'https://image.tmdb.org/t/p/w500/';
+  
   return(
     <div className="p-2 group cursor-pointer transition duration-200 ease-in transform sm:hover:scale-105 hover:z-50">
       <Image src={ 
