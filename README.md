@@ -1,8 +1,15 @@
 # This project is a clone of Hulu Streaming service
 
-For study purpose, only.
+It was built for study purposes only.
+When I built it, I was learning about TailwindCSS and API Integrations.
+I really enjoyed the process and the results. You can check it at the repo description,
+or at the pictures below.
 
-It's made with Next.Js and Tailwindcss
+## Pictures
+<img src="https://cdn.discordapp.com/attachments/862834976725532705/945793651391492177/hulu-desk.png" alt="hulu desktop" />
+<img src="https://cdn.discordapp.com/attachments/862834976725532705/945793662825148466/hulu-mobile.png" alt="hulu mobile" />
+
+## Installation
 
 First, set the global variables:
 
